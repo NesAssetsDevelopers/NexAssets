@@ -1,97 +1,99 @@
 # NexAssets
 
-NexAssets es una plataforma innovadora que permite la tokenización de bienes raíces comerciales y propiedades de lujo, ofreciendo a los inversores la oportunidad de poseer fracciones de activos físicos a través de la tecnología blockchain. Combinamos tecnología descentralizada con mercados de inversión inmobiliaria para democratizar el acceso a activos premium, asegurando liquidez, transparencia y rentabilidad a nivel global.
 
-## Tabla de Contenidos
+NexAssets is an innovative platform that enables the tokenization of commercial real estate and luxury properties, offering investors the opportunity to own fractions of physical assets through blockchain technology. We combine decentralized technology with real estate investment markets to democratize access to premium assets, ensuring liquidity, transparency, and profitability on a global level.
 
-- [Visión General](#visión-general)
-- [Características](#características)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Instalación](#instalación)
-  - [Prerrequisitos](#prerrequisitos)
-  - [Instrucciones de Instalación](#instrucciones-de-instalación)
-- [Uso](#uso)
-  - [Despliegue de Smart Contracts](#despliegue-de-smart-contracts)
-  - [Ejecución de Pruebas](#ejecución-de-pruebas)
-  - [Inicio del Backend](#inicio-del-backend)
-  - [Inicio del Frontend](#inicio-del-frontend)
-- [Contribución](#contribución)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+## Table of Contents
 
-## Visión General
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+  - [Deploying Smart Contracts](#deploying-smart-contracts)
+  - [Running Tests](#running-tests)
+  - [Starting the Backend](#starting-the-backend)
+  - [Starting the Frontend](#starting-the-frontend)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-NexAssets revoluciona la inversión en bienes raíces al permitir la tokenización de propiedades premium como hoteles, edificios de oficinas, centros comerciales y casas de lujo. Cada activo se divide en tokens que representan su propiedad, y los inversores pueden comprar, vender o intercambiar estos tokens en la plataforma.
+## Overview
 
-## Características
+NexAssets revolutionizes real estate investment by allowing the tokenization of premium properties such as hotels, office buildings, shopping malls, and luxury homes. Each asset is divided into tokens representing its ownership, and investors can buy, sell, or exchange these tokens on the platform.
 
-- **Tokenización de Activos Inmobiliarios**: Selección y registro de propiedades premium.
-- **Mercado Descentralizado**: Plataforma para adquirir fracciones de activos inmobiliarios tokenizados.
-- **Generación de Rendimientos**: Ingresos pasivos a través de dividendos de alquiler y ganancias de capital.
-- **Tecnología y Seguridad**: Uso de blockchain y smart contracts auditados.
-- **Cumplimiento Regulatorio**: Cumplimiento con regulaciones de identificación y estándares de tokens de valores.
-- **Gobernanza y Comunidad**: Modelo DAO para la toma de decisiones clave.
 
-## Tecnologías Utilizadas
+## Features
+
+- **Real Estate Asset Tokenization**: Selection and registration of premium properties.
+- **Decentralized Marketplace**: Platform to acquire fractions of tokenized real estate assets.
+- **Yield Generation**: Passive income through rental dividends and capital gains.
+- **Technology and Security**: Use of blockchain and audited smart contracts.
+- **Regulatory Compliance**: Compliance with identification regulations and securities token standards.
+- **Governance and Community**: DAO model for key decision-making.
+
+## Technologies Used
 
 - **Blockchain**: Ethereum, Polygon, Cosmos
 - **Smart Contracts**: Solidity
 - **Backend**: Node.js, Express
 - **Frontend**: React
-- **Pruebas**: Mocha, Chai
-- **Despliegue**: Hardhat
+- **Testing**: Mocha, Chai
+- **Deployment**: Hardhat
 
-## Instalación
+## Installation
 
-### Prerrequisitos
+### Prerequisites
 
 - Node.js
-- npm o yarn
+- npm or yarn
 - Hardhat
 
-### Instrucciones de Instalación
+### Installation Instructions
 
-1. Clona el repositorio:
+1. Clone the repository:
     ```sh
     git clone https://github.com/your-repo/NexAssets.git
     cd NexAssets
     ```
 
-2. Instala las dependencias:
+2. Install dependencies:
     ```sh
     npm install
     ```
 
-3. Compila los smart contracts:
+3. Compile smart contracts:
     ```sh
     npx hardhat compile
     ```
 
-4. Despliega los smart contracts:
+4. Deploy smart contracts:
     ```sh
     npx hardhat run scripts/deploy.js --network localhost
     ```
 
-5. Ejecuta las pruebas:
+5. Run tests:
     ```sh
     npx hardhat test
     ```
 
-6. Inicia el servidor backend:
+6. Start the backend server:
     ```sh
     node backend/server.js
     ```
 
-7. Inicia el servidor de desarrollo frontend:
+7. Start the frontend development server:
     ```sh
     cd frontend
     npm start
     ```
 
-## Uso
+## Usage
 
-### Despliegue de Smart Contracts
+### Deploying Smart Contracts
 
-Para desplegar los smart contracts en una red de prueba como Rinkeby o Ropsten, ejecuta:
+To deploy the smart contracts on a test network like Rinkeby or Ropsten, run:
 ```sh
 npx hardhat run scripts/deploy.js --network rinkeby
