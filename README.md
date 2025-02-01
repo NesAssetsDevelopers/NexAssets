@@ -1,7 +1,7 @@
-# NexAssets
+![Social Preview - ChainWave](https://github.com/user-attachments/assets/f3953869-3831-400d-a1d8-985e839eda11)
 
 
-NexAssets is an innovative platform that enables the tokenization of commercial real estate and luxury properties, offering investors the opportunity to own fractions of physical assets through blockchain technology. We combine decentralized technology with real estate investment markets to democratize access to premium assets, ensuring liquidity, transparency, and profitability on a global level.
+Chain Wave is an innovative platform that enables the tokenization of commercial real estate and luxury properties, offering investors the opportunity to own fractions of physical assets through blockchain technology. We combine decentralized technology with real estate investment markets to democratize access to premium assets, ensuring liquidity, transparency, and profitability on a global level.
 
 ## Table of Contents
 
@@ -55,7 +55,7 @@ NexAssets revolutionizes real estate investment by allowing the tokenization of 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/NexAssets.git
+    git clone https://github.com//CWtoken/ChainWave.git
     cd NexAssets
     ```
 
